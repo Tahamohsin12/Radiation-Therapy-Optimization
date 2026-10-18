@@ -29,4 +29,18 @@ Determine the precise intensity (dosage) for two radiation beams to ensure the *
 ### 📉 Visual Output: The Pareto Frontier
 <img width="612" height="468" alt="Pareto Froniter" src="https://github.com/user-attachments/assets/d5b2ccfd-4b97-48e4-a2a3-7fe6f2b6fd25" />
 
+---
 
+### Skills shown
+Multi-objective linear programming · hard vs soft constraints · Pareto frontier for trade-off decisions · Python + Gurobi
+
+### Why it matters in operations
+Every operations decision trades one outcome against another: service level against cost, or throughput against quality. A Pareto frontier shows decision-makers exactly what each extra unit of one goal costs in the other, which is how I frame trade-offs for leadership.
+
+### How to run
+```bash
+pip install gurobipy matplotlib jupyter
+jupyter notebook Radiation_Therapy_Optimization.ipynb
+```
+
+*Context: developed from a group assignment in Managerial Decisions Modelling (UBC Sauder MBA, 2025).*
